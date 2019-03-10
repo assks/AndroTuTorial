@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quiz"
+        android:id="@+id/image"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="80dp"
+        android:id="@+id/play_button"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="50dp"
+        android:id="@+id/about_button"
+        android:background="@drawable/rounded_corner"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_button"
+        android:layout_marginTop="50dp"
+        android:id="@+id/exit_button"
+        />
+</RelativeLayout>
